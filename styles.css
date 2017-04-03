@@ -3,9 +3,9 @@ body {
 }
 
 #bannerImage {
+	position: absolute;
 	width: 50%;
 	height: 45%;
-	position: absolute;
 	z-index: -1;
 }
 
@@ -17,25 +17,31 @@ body {
 }
 
 #logo {
+	position: absolute;
   top: 40%;
   left: 4%;
   font-size: 40px;
   color: #f2f6fc;
-  background-color: #a4bbd8;
+  background-color: #93b7c7;
   border: 5px solid #f2f6fc;
   border-radius: 10px;
   padding: 20px; 
-  position: absolute;
 }
 
 #follow {
 	position: absolute;
-	top: 50%;
+	top: 48%;
 	right: 52%;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: lighter;
-	color: #4d94ff;
+	color: #1b9afa;
 	background: rgba(255, 255, 255, .1);
-	border: 2px solid #4d94ff;
+	border: 2px solid #1b9afa;
 	border-radius: 8px;
+	padding-right: 23px;
+	padding-left: 23px;
+} 
+
+#follow:hover {
+  background: #bcd1f2;
 }
