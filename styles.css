@@ -21,8 +21,10 @@ body {
 	position: absolute;
   top:67%;
   left: 8%;
+  font-size: 40px;
+  color: #f2f6fc;
   background-color:#b3cef9;
-  border: 10px solid white;
+  border: 6px solid #f2f6fc;
   border-radius: 25px;
   padding:20px; 
 }
