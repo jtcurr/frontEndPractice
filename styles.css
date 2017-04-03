@@ -29,6 +29,8 @@ body {
 }
 
 #follow {
-	position: relative;
-	float: right;
+	position: absolute;
+	top: 50%;
+	right: 52%;
+	font-size: 25px;
 }
