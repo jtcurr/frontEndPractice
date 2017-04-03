@@ -33,4 +33,9 @@ body {
 	top: 50%;
 	right: 52%;
 	font-size: 25px;
+	font-weight: lighter;
+	color: #4d94ff;
+	background: rgba(255, 255, 255, .1);
+	border: 2px solid #4d94ff;
+	border-radius: 8px;
 }
