@@ -45,3 +45,9 @@ body {
 #follow:hover {
   background: #bcd1f2;
 }
+
+table {
+	position: absolute;
+  top: 60%;
+  
+}
