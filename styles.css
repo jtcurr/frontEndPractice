@@ -1,12 +1,18 @@
 body {
-	background-color: #e3eaf4
+	background-color: #a8a8a8
+}
+
+.container {
+	width: 45.6%;
+	height: 530px;
+	background-color: white;
+	border-radius: 10px;
 }
 
 #bannerImage {
 	position: absolute;
 	width: 45%;
-	height: 45%;
-	z-index: -1;
+	height: 39%;
 }
 
 #bannerImage img {
@@ -18,21 +24,40 @@ body {
 
 #logo {
 	position: absolute;
-  top: 40%;
+  top: 34%;
   left: 4%;
-  font-size: 40px;
+  font-family: "Futura";
+  font-size: 37px;
   color: #f2f6fc;
   background-color: #93b7c7;
-  border: 5px solid #f2f6fc;
+  border: 5px solid #ffffff;
   border-radius: 10px;
-  padding: 20px; 
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+#outerLogo {
+	position: absolute;
+  top: 14%;
+  left: 4%;
+  font-family: "Futura";
+  font-size: 37px;
+  color: #f2f6fc;
+  background: #93b7c7;
+  border: 5px solid transparent;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 19px;
+  padding-right: 19px;
 }
 
 #follow {
 	position: absolute;
-	top: 48%;
+	top: 42%;
 	right: 57%;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: lighter;
 	color: #1b9afa;
 	background: rgba(255, 255, 255, .1);
@@ -48,11 +73,26 @@ body {
 
 table {
 	position: absolute;
-  top: 55%;
+  top: 48%;
   left: 4%;
+  max-width: 40%;
 }
 
-h2 {
+#companyTitle {
 	font-family: "Arial";
 	font-weight: 400;
+}
+
+.sloganAndTags {
+	font-family: "Arial";
+	font-weight: 800px;
+  font-size: 20px;
+}
+
+.citySiteJoin {
+	padding-top: 15px;
+}
+
+.bull {
+  font-size: 11px;
 }
