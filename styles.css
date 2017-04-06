@@ -26,31 +26,24 @@ body {
 	position: absolute;
   top: 34%;
   left: 4%;
+  height: auto;
+  width: auto;
   font-family: "Futura";
   font-size: 37px;
   color: #f2f6fc;
   background-color: #93b7c7;
   border: 5px solid #ffffff;
-  border-radius: 10px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  padding-left: 19px;
-  padding-right: 19px;
+  border-radius: 5px;
 }
 
 #outerLogo {
-	position: absolute;
-  top: 14%;
-  left: 4%;
-  font-family: "Futura";
-  font-size: 37px;
-  color: #f2f6fc;
   background: #93b7c7;
-  border: 5px solid transparent;
+  height: auto;
+  width: auto;
   padding-top: 14px;
   padding-bottom: 14px;
-  padding-left: 19px;
-  padding-right: 19px;
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
 #follow {

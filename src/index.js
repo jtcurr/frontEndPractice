@@ -5,7 +5,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
   for (let i = 0; i <= name.length-1; i++) {
     firstLetters += name[i][0];
   }
-  document.getElementById('logo').innerHTML = firstLetters;
-  document.getElementById('outerLogo').innerHTML = firstLetters;
-
+  document.getElementById('outerLogo').innerHTML += firstLetters;
 });
