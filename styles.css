@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-	width: 45.6%;
+	width: 42%;
 	height: 530px;
 	background-color: white;
 	border-radius: 10px;
@@ -11,8 +11,8 @@ body {
 
 #bannerImage {
 	position: absolute;
-	width: 45%;
-	height: 39%;
+	width: 41.5%;
+	height: 37%;
 }
 
 #bannerImage img {
@@ -48,7 +48,7 @@ body {
 #follow {
 	position: absolute;
 	top: 42%;
-	right: 57%;
+	left: 32%;
 	font-size: 17px;
 	font-weight: lighter;
 	color: #1b9afa;
@@ -76,10 +76,8 @@ table {
 	padding-top: 13px;
 }
 
-.sloganAndTags {
-	font-family: "Arial";
-	font-weight: 100;
-  font-size: 20px;
+#sloganAndTags {
+	font-size: 17px;
   padding-top: 15px;
 }
 
