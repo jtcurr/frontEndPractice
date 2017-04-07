@@ -24,7 +24,7 @@ body {
 
 #innerLogo {
 	position: absolute;
-  top: 30%;
+  top: 28%;
   left: 4%;
   height: auto;
   width: auto;
@@ -47,7 +47,7 @@ body {
 
 #follow {
 	position: absolute;
-	top: 38%;
+	top: 36%;
 	left: 32%;
 	font-size: 17px;
 	font-weight: lighter;
@@ -65,7 +65,7 @@ body {
 
 table {
 	position: absolute;
-  top: 45%;
+  top: 44%;
   left: 4%;
   max-width: 33%;
 }
