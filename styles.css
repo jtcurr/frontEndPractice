@@ -54,13 +54,29 @@ body {
 	color: #1b9afa;
 	background: rgba(255, 255, 255, .1);
 	border: 2px solid #1b9afa;
-	border-radius: 8px;
+	border-radius: 8px; 
 	padding-right: 23px;
 	padding-left: 23px;
+	outline: none;
 } 
 
 #follow:hover {
   background: #bcd1f2;
+}
+
+#followed {
+	position: absolute;
+	top: 36%;
+	left: 32%;
+	font-size: 17px;
+	font-weight: lighter;
+	color: #ffffff ;
+	background: rgba(52, 219, 55, .7);
+	border: 2px solid #1b9afa;
+	border-radius: 8px; 
+	padding-right: 13px;
+	padding-left: 13px;
+	outline: none;
 }
 
 table {

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById('join').innerHTML += 'Joined ' + data.joinDate;
   document.getElementById('site').innerHTML += data.shortWebsite.link(data.fullWebsite);
   
-	for (var x = 0; x < data.tags.length; x++ ) {
+	for (var x = 0; x < data.tags.length; x++) {
     if (x === data.tags.length-1) {
     	document.getElementById('tags').innerHTML += ', and ' + '#' + data.tags[x].link(data.tagURLS[data.tags[x]]);
 
@@ -21,10 +21,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     	document.getElementById('tags').innerHTML += ', ' + '#' + data.tags[x].link(data.tagURLS[data.tags[x]]);
     }
   }
+  
+  let button = document.getElementById('follow')
+  button.addEventListener('click', function() {buttonFunction()});
 
-  document.getElementById('follow').addEventListener('click', function() {buttonFunction()});
-
-  function buttonFunction (e) {
-    
+  function buttonFunction () {
+    button.id = 'followed';
+    button.innerHTML = 'Followed';
   }
 });
