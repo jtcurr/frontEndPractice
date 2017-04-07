@@ -5,5 +5,10 @@ data = {
 	"location": "San Francisco",
   "shortWebsite": "infielddigital.com",
   "fullWebsite": "https://www.infielddigital.com",
-  "joinDate": "March 2009"
+  "joinDate": "March 2009",
+  "tagURLS" : {
+  	"AEM/CQ5": "http://www.aemelectronics.com/",
+  	"Magneto": "https://i.annihil.us/u/prod/marvel//universe3zx/images/e/e8/Magneto01.jpg",
+  	"LaPavoni": "http://www.espressooutlet.net/la-pavoni-stradivari-16-cup-professional-lever-espresso-machine-open-box/?gclid=CjwKEAjw8ZzHBRCUwrrV59XinXUSJADSTE5kgQDa8Ou4I1wgHRns6MErytiC9yXDDR3Cp2IM6ayGkhoCbdHw_wcB"
+  }
 }

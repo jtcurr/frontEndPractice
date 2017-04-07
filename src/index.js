@@ -8,13 +8,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById('outerLogo').innerHTML += firstLetters;
   document.getElementById('companyTitle').innerHTML += data.name;
   document.getElementById('slogan').innerHTML += data.slogan + ' - ';
-  for (var x = 0; x < data.tags.length-1; x++ ) {
-    if (x === data.tags.length-2) {
-    	document.getElementById('tags') += ', and ' + data.tags[x];
-    } if (x === 0) {
-      document.getElementById('tags') += data.tags[x];
+  var dataTag;
+  var result;
+  for (var x = 0; x < data.tags.length; x++ ) {
+    if (x === data.tags.length-1) {
+    	document.getElementById('tags').innerHTML += ', and ' + '#' + data.tags[x].link(data.tagURLS[data.tags[x]]);
+
+    } else if (x === 0) {
+      document.getElementById('tags').innerHTML += '#' + data.tags[x].link(data.tagURLS[data.tags[x]]);
     } else {
-    	document.getElementById('tags') += data.tags[x];
+    	document.getElementById('tags').innerHTML += ', ' + '#' + data.tags[x].link(data.tagURLS[data.tags[x]]);
     }
   }
 });
