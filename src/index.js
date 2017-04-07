@@ -6,4 +6,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     firstLetters += name[i][0];
   }
   document.getElementById('outerLogo').innerHTML += firstLetters;
+  document.getElementById('companyTitle').innerHTML += data.name;
+  document.getElementById('slogan').innerHTML += data.slogan + ' - ';
 });
