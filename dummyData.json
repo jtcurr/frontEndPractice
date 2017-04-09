@@ -3,8 +3,9 @@ data = {
 	"slogan": "Coffee, Commerce, and Coffee",
 	"tags": ["AEM/CQ5", "Magento", "LaPavoni"],
 	"city": "San Francisco",
+  "background": "images/sf.jpg",
   "shortWebsite": "infielddigital.com",
-  "fullWebsite": "https://www.infielddigital.com",
+  "fullWebsite": "www.infielddigital.com",
   "joinDate": "March 2009",
   "tagURLS" : {
   	"AEM/CQ5": "http://www.aemelectronics.com/",
