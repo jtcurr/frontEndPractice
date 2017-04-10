@@ -5,7 +5,7 @@ data = {
 	"city": "San Francisco",
   "background": "images/sf.jpg",
   "shortWebsite": "infielddigital.com",
-  "fullWebsite": "www.infielddigital.com",
+  "fullWebsite": "http://www.infielddigital.com",
   "joinDate": "March 2009",
   "tagURLS" : {
   	"AEM/CQ5": "http://www.aemelectronics.com/",

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(event) {
-  //let elem = document.createElement('src');
+
   let elem = document.createElement('img');
   elem.setAttribute('src', data.background);
   document.getElementById('bannerImage').appendChild(elem);
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
   document.getElementById('join').innerHTML += 'Joined ' + data.joinDate;
   document.getElementById('site').innerHTML += data.shortWebsite.link(data.fullWebsite);
   
-	for (var x = 0; x < data.tags.length; x++) {
+	for (let x = 0; x < data.tags.length; x++) {
     if (x === data.tags.length-1) {
     	document.getElementById('tags').innerHTML += ', and ' + '#' + data.tags[x].link(data.tagURLS[data.tags[x]]);
 
@@ -33,5 +33,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
   function buttonFunction () {
     button.id = 'followed';
     button.innerHTML = 'Followed';
+
   }
 });
