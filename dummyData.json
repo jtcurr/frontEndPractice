@@ -1,15 +1,15 @@
 data = {
 	"name": "Infield Digital",
 	"slogan": "Coffee, Commerce, and Coffee",
-	"tags": ["AEM/CQ5", "Magento", "LaPavoni"],
+	"tags": ["#AEM/CQ5", "#Magento", "#LaPavoni"],
 	"city": "San Francisco",
   "background": "images/sf.jpg",
   "shortWebsite": "infielddigital.com",
   "fullWebsite": "http://www.infielddigital.com",
   "joinDate": "March 2009",
   "tagURLS" : {
-  	"AEM/CQ5": "http://www.aemelectronics.com/",
-  	"Magento": "https://i.annihil.us/u/prod/marvel//universe3zx/images/e/e8/Magneto01.jpg",
-  	"LaPavoni": "http://www.espressooutlet.net/la-pavoni-stradivari-16-cup-professional-lever-espresso-machine-open-box/?gclid=CjwKEAjw8ZzHBRCUwrrV59XinXUSJADSTE5kgQDa8Ou4I1wgHRns6MErytiC9yXDDR3Cp2IM6ayGkhoCbdHw_wcB"
+  	"#AEM/CQ5": "http://www.aemelectronics.com/",
+  	"#Magento": "https://i.annihil.us/u/prod/marvel//universe3zx/images/e/e8/Magneto01.jpg",
+  	"#LaPavoni": "http://www.espressooutlet.net/la-pavoni-stradivari-16-cup-professional-lever-espresso-machine-open-box/?gclid=CjwKEAjw8ZzHBRCUwrrV59XinXUSJADSTE5kgQDa8Ou4I1wgHRns6MErytiC9yXDDR3Cp2IM6ayGkhoCbdHw_wcB"
   }
 }

@@ -1,9 +1,10 @@
 body {
 	background-color: #a8a8a8
 }
-s
+
 a {
-	color: blue;
+	color: #94c6ff;
+	text-decoration: none;
 }
 
 .container {
@@ -105,6 +106,9 @@ table {
 	padding-top: 15px;
 }
 
+#site a{
+	color:black;
+}
 .bull {
   font-size: 11px;
 }
